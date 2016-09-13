@@ -2,7 +2,7 @@ package nl.skiphoutzager.weatherstation;
 
 import java.util.ArrayList;
 
-public abstract class SubjectManager<T> {
+public class SubjectManager<T> {
 
 	private ArrayList<Observer<T>> observerList = new ArrayList<Observer<T>>();
 
